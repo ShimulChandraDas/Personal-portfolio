@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "1",
+        "name": "Bhaskar The Cancer Specialist",
+        "image": "https://i.ibb.co/PgVs9md/Project-2.png",
+        "live": "https://bhaskar-the-cancer-specialist.web.app/",
+        "clientSide": "https://github.com/ShimulChandraDas/bhaskar-the-cancer-specialist",
+        "technology": "React, Tailwind, React router, React query, React hook from, API integration, Node.js, Express.js, MongoDB, etc.",
+        "about": "Implemented authentication using Firebase and JSON web token.Implemented a Payment system. Users can add reviews and see the latest review. We have created an admin panel to manage all orders and all users.\r\n"
+    },
+    {
+        "_id": "2",
+        "name": "Musafir Er Gudam",
+        "image": "https://i.ibb.co/rGYy7bC/Project-1.png",
+        "live": "https://musafir-er-gudam.firebaseapp.com/",
+        "clientSide": "https://github.com/ShimulChandraDas/musafir-er-gudam-client",
+        "serverSide": "https://github.com/ShimulChandraDas/musafir-er-gudam-server",
+        "technology": "React, Tailwind, React router, API integration, node.js, express.js, MongoDB, etc.",
+        "about": "Managing stock updates, and delivery.Without login user cannot deliver the product.Implemented authentication using Firebase.\r\n"
+    },
+    {
+        "_id": "3",
+        "name": "Mtb Bike Shop",
+        "image": "https://i.ibb.co/WkKRyBV/Project-3.png",
+        "live": "https://mtb-bike-shop.netlify.app/",
+        "clientSide": "https://github.com/ShimulChandraDas/mtb-bike-shop",
+        "technology": "React, Tailwind, Bootstrap, React router, API integration, etc.",
+        "about": "Perches any service.Implemented authentication using Firebase.\r\n"
+    }
+]
