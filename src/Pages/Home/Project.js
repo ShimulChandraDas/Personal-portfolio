@@ -25,8 +25,8 @@ const Project = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-3 md:px-0'>
                 {
-                    projects.map(project => <div key={project._id} className="flex justify-center  shadow-md rounded-lg shadow-gray-300">
-                        <div className="rounded-lg bg-gray-900 text-gray-300">
+                    projects.map(project => <div key={project._id} className="flex justify-center  shadow-md rounded-3xl shadow-gray-300">
+                        <div className="rounded-3xl bg-gray-900 text-gray-300">
                             <a href="#!">
                                 <img className="rounded-t-lg" src={project.image} alt="" />
                             </a>

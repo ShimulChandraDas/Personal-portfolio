@@ -13,7 +13,7 @@ const Navbar = () => {
                         </path>
                     </svg>
                 </button>
-                <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse flex-grow items-center uppercase font-bold" id="navbarSupportedContent">
                     <NavLink className="flex font-bold text-2xl items-center justify-center text-gray-300 hover:text-gray-100 focus:text-gray-200 mt-2 uppercase lg:mt-0 mr-1" to="#">Shimul</NavLink>
                     {/* <!-- Left NavLinks --> */}
                     <ul className="navbar-nav flex flex-col pl-0 list-style-none mx-auto">
@@ -21,19 +21,22 @@ const Navbar = () => {
                             <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#about'>About</a>
+                            <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to="/about">About</NavLink>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#skills'>Skills</a>
+                            <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to='/skills'>Skills</NavLink>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#project'>Projects</a>
+                            <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to='/project'>Projects</NavLink>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#service'>Service</a>
+                            <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to='/service'>Service</NavLink>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#contact'>Contact</a>
+                            <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to='/blogs'>Blogs</NavLink>
+                        </li>
+                        <li className="nav-item p-2">
+                            <NavLink className="nav-NavLink text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to='/contact'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>
